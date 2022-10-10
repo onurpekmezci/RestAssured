@@ -34,8 +34,6 @@ public class CountryTest {
                 .when()
                 .post("auth/login")
 
-
-
                 .then()
                 .log().all()
                 .statusCode(200)
